@@ -10,7 +10,7 @@ import {
 const Main = () => {
   return (
     <HomeMainContainer>
-      <WelcomeHeader><h1>Hi, I'm Tommy. . .</h1></WelcomeHeader>
+      <WelcomeHeader><h1>Hi, I'm Tommy</h1></WelcomeHeader>
       <WelcomeText>
         <WelcomeLeft>
           <h3>Blockchain Developer</h3>

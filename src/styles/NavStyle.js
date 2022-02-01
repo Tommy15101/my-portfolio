@@ -138,9 +138,9 @@ export const MobileNavExtension = styled.div`
     width: 100%;
     height: 100vh;
     top: 0;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.9);
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1.25fr;
     animation: ${dropDown} 1s ease-in-out;
     z-index: -1;
     @media (min-width: 768px) {
@@ -155,7 +155,7 @@ export const NavLinksExtended = styled.div`
     color: white;
     li {
         margin: 60px 0 60px 0;
-        font-size: 20px;
+        font-size: 25px;
         cursor: pointer;
     }
 `
