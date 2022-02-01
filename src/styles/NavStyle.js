@@ -12,7 +12,7 @@ const dropDown = keyframes`
 
 // The container of the Nav Bar
 export const NavContainer = styled.div`
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 60px;
     display: flex;
@@ -135,8 +135,9 @@ export const MobileNavToggle = styled.div`
 `
 export const MobileNavExtension = styled.div`
     position: absolute;
-    width: 100%;
-    max-height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
     top: 0;
     background-color: rgba(0,0,0,0.9);
     display: grid;

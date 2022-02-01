@@ -24,7 +24,7 @@ const Nav = () => {
         <>     
             <NavContainer>
                 <MyName onClick={() => {
-                            setMobileNav((curr) => !curr)
+                            setMobileNav(false)
                             }}>
                     <h1 onClick={() => navigate("./")} >Tommy Atkins</h1>
                     <SocialLinks>
