@@ -31,7 +31,7 @@ export const ProjectsData = {
             buttonOne: 'View Code',
             buttonTwo: 'Visit Tracker',
             code: 'https://github.com/Tommy15101',
-            visit: 'https://simple-crypto-prices.herokuapp.com/'
+            visit: 'https://jolly-sea-5132.on.fleek.co'
         },
         {
             id: 3,
