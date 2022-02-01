@@ -1,0 +1,169 @@
+import styled from 'styled-components';
+
+export const ProjectsMainContainer = styled.div`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`
+export const ProjectsWindowDisplay = styled.div`
+    display: grid;
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px black;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 2fr 3fr 1fr;
+    width: 70%;
+    height: auto;
+    margin: 140px 0 80px 0;
+    padding: 80px;
+
+    @media (max-width: 1400px) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 2fr 1fr;
+        padding-top: 40px;
+    }
+
+    @media (max-width: 1200px) {
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    @media (max-width: 576px) {
+        grid-template-columns: 1fr;
+        padding: 40px;
+        margin: 100px 0 0 0;
+        grid-template-rows: 1fr auto 1fr;
+    }
+`
+export const ProjectsWindowImage = styled.div`
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 80px 0 0;
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px black;
+        transition: all .2s ease-in-out;
+        &:hover {
+            transform: scale(1.02);
+            box-shadow: 10px 10px 10px black;
+        }
+    }
+    @media (max-width: 1400px) {
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    @media (max-width: 1200px) {
+        grid-row-start: auto;
+	    grid-row-end: auto;
+	    grid-column-start: 1;
+        grid-column-end: 3;
+        margin: 0;
+    }
+
+    @media (max-width: 576px) {
+        margin: 0;
+        padding: 0;
+    }
+`
+export const ProjectsWindowHeader = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px 0 0;
+    text-align: center;
+    h1 {
+        font-size: 25px;
+        @media (max-width: 1400px) {
+            padding-bottom: 10px;
+        }
+        @media (max-width: 576px) {
+            padding: 15px 0 0 0;
+        }
+    }
+    p {
+        font-size: 15px;
+        @media (max-width: 576px) {
+        font-size: 13px;
+    }
+    }
+    @media (max-width: 1400px) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    @media (max-width: 576px) {
+        padding: 0 0 20px 0;
+    }
+`
+export const ProjectsWindowInfo = styled.ul`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;  
+    padding: 0 10px 10px 0;
+    text-align: center;
+    h2 {
+        font-size: 22px;
+        @media (max-width: 576px) {
+            padding: 0 0 10px 0;
+        }
+    }
+    li {
+        font-size: 15px;
+    }
+    @media (max-width: 1400px) {
+        padding: 20px 0 0 0;
+    }
+    @media (max-width: 1200px) {
+        
+    }
+`
+export const ProjectsWindowButtons = styled.div`
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 10px 0 0;
+    button {
+        padding: 5px 0;
+        width: 130px;
+        transition: all .2s ease-in-out;
+        cursor: pointer;
+        border-radius: 8px;
+        box-shadow: 5px 5px 10px black;
+        &:hover {
+            transform: scale(1.1);
+            color: white;
+            background-color: black;
+        }
+        @media (max-width: 1400px) {
+            width: 120px;
+        }
+    }
+    @media (max-width: 992px) {
+        flex-direction: column;
+    }
+`
+export const Footer = styled.div`
+    @media (max-width: 576px) {
+        height: 50px;
+        width: 100%;
+    }
+`
+
+
+// Small / Landscape / Phones - @media (max-width: 576px)
+// Medium / Tabets - @media (max-width: 768px)
+// Large / Laptops - @media (max-width: 992px)
+// XL / Dektops - @media (max-width: 1200px)
+// XXL / Monitors - @media (max-width: 1400px)
