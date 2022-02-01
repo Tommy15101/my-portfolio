@@ -19,36 +19,36 @@ const Skills = () => {
       <SkillsInformationContainer>
         <SkillsInformationWindow>
           <SkillsBlock>
-            <Skill><FontAwesomeIcon icon={faHtml5} /><FontAwesomeIcon icon={faCss3} /></Skill>
-            <a href="https://freecodecamp.org/certification/tommy15101/responsive-web-design" target="_blank" rel="noreferrer">HTML CSS Certificate</a>
+            <a href="https://freecodecamp.org/certification/tommy15101/responsive-web-design" target="_blank" rel="noreferrer"><Skill><FontAwesomeIcon icon={faHtml5} /><FontAwesomeIcon icon={faCss3} /></Skill>
+            HTML CSS Certificate</a>
           </SkillsBlock>
 
           <SkillsBlock></SkillsBlock>
 
           <SkillsBlock>
-            <Skill><FontAwesomeIcon icon={faReact} /></Skill>
-            <a href="React.pdf" target="_blank" rel="noreferrer">React Certificate</a>
+            <a href="React.pdf" target="_blank" rel="noreferrer"><Skill><FontAwesomeIcon icon={faReact} /></Skill>
+            React Certificate</a>
           </SkillsBlock>
 
           <SkillsBlock></SkillsBlock>
 
           <SkillsBlock>
-            <Skill><FontAwesomeIcon icon={faJsSquare} /></Skill>
-            <a href="JS.pdf" target="_blank" rel="noreferrer">Javascript Certificate</a>
+            <a href="JS.pdf" target="_blank" rel="noreferrer"><Skill><FontAwesomeIcon icon={faJsSquare} /></Skill>
+            Javascript Certificate</a>
           </SkillsBlock>
 
           <SkillsBlock></SkillsBlock>
 
           <SkillsBlock>
-            <Skill><FontAwesomeIcon icon={faNode} /></Skill>
-            <a href="Node.pdf" target="_blank" rel="noreferrer">Node JS Certificate</a>
+            <a href="Node.pdf" target="_blank" rel="noreferrer"><Skill><FontAwesomeIcon icon={faNode} /></Skill>
+            Node JS Certificate</a>
           </SkillsBlock>
 
           <SkillsBlock></SkillsBlock>
 
           <SkillsBlock>
-            <Skill><FontAwesomeIcon icon={faEthereum} /></Skill>
-            <a href="blockchain.pdf" target="_blank" rel="noreferrer">Solidity Blockchain Certificate</a>
+            <a href="blockchain.pdf" target="_blank" rel="noreferrer"><Skill><FontAwesomeIcon icon={faEthereum} /></Skill>
+            Solidity Blockchain Certificate</a>
           </SkillsBlock>
 
           <SkillsBlock></SkillsBlock>
@@ -56,7 +56,7 @@ const Skills = () => {
         </SkillsInformationWindow>
       </SkillsInformationContainer>
 
-      <Marquee pauseOnHover={true} speed={200} loop={0} gradientWidth={600}>
+      <Marquee speed={200} loop={0} gradientWidth={600}>
 
         <SkillsIconContainer>
 

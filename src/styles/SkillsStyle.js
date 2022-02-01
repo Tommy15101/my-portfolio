@@ -31,10 +31,6 @@ export const SingleSkill = styled.div`
   cursor: pointer;
   font-size: 80px;
   color: white;
-  &:hover {
-    transform: scale(1.2);
-    color: black;
-  }
   @media (max-width: 768px) {
     font-size: 55px;
   }
@@ -65,7 +61,7 @@ export const SkillsBlock = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   a {
     margin-bottom: 80px;
     font-size: 20px;
@@ -91,8 +87,10 @@ export const Skill = styled.div`
   align-items: center;
   justify-content: space-evenly;
   font-size: 60px;
+  margin-bottom: 20px;
   @media (max-width: 576px) {
     font-size: 30px;
+    margin-bottom: 10px;
   }
 `
 

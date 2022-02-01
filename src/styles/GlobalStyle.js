@@ -6,8 +6,12 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         margin: 0;
         font-family: 'Montserrat', sans-serif;
+        user-select: none;
         li {
             list-style-type: none;
+        }
+        &:focus {
+            outline: none;
         }
     }
 `
