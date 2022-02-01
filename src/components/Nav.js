@@ -23,7 +23,9 @@ const Nav = () => {
   return (
         <>     
             <NavContainer>
-                <MyName>
+                <MyName onClick={() => {
+                            setMobileNav((curr) => !curr)
+                            }}>
                     <h1 onClick={() => navigate("./")} >Tommy Atkins</h1>
                     <SocialLinks>
                         <a href="https://twitter.com/BlockchainVeins" target="_blank" rel="noreferrer">

@@ -136,7 +136,7 @@ export const MobileNavToggle = styled.div`
 export const MobileNavExtension = styled.div`
     position: absolute;
     width: 100%;
-    height: 100vh;
+    max-height: 100vh;
     top: 0;
     background-color: rgba(0,0,0,0.9);
     display: grid;
