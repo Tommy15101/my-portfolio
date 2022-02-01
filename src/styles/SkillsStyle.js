@@ -39,6 +39,7 @@ export const SingleSkill = styled.div`
     font-size: 55px;
   }
   @media (max-width: 576px) {
+    max-width: 100%;
     font-size: 40px;
   }
 `
@@ -75,8 +76,11 @@ export const SkillsBlock = styled.div`
     &:hover {
       transform: scale(1.2);
     }
+    @media (max-width: 768px) {
+      font-size: 15px;
+    }
     @media (max-width: 576px) {
-    font-size: 15px;
+    font-size: 10px;
     }
   }
 `
@@ -88,7 +92,7 @@ export const Skill = styled.div`
   justify-content: space-evenly;
   font-size: 60px;
   @media (max-width: 576px) {
-    font-size: 40px;
+    font-size: 30px;
   }
 `
 

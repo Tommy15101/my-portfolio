@@ -36,17 +36,17 @@ export const ProjectsData = {
         {
             id: 3,
             imgSrc: exchange,
-            title: 'Number three!!!',
-            desc: 'Completed with Dapp University',
-            info: 'Deployed to the Koven Test Network, this is a fully functioning ERC20 token and exchange.',
+            title: 'NFT Collection',
+            desc: 'In Progress - Coming Soon',
+            info: 'A collection of 20 unique pieces',
             skillsHeader: 'Key Skills',
             skillsOne: 'Solidity',
             skillsTwo: 'React',
-            skillsThree: 'Redux',
+            skillsThree: 'IPFS',
             buttonOne: 'View Code',
             buttonTwo: 'Visit Test',
-            code: 'https://github.com/Tommy15101',
-            visit: 'https://flat-credit-3558.on.fleek.co/'
+            // code: 'https://github.com/Tommy15101',
+            // visit: 'https://flat-credit-3558.on.fleek.co/'
         }
     ]
 }
