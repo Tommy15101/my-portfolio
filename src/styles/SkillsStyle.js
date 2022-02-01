@@ -11,8 +11,8 @@ const dropDown = keyframes`
 `
 
 export const SkillsMainContainer = styled.div`
-    height: 100vh;
-    width: 100%;
+    max-height: 100vh;
+    max-width: 100vw;
     display: grid;
     grid-template-rows: 5fr 1fr;
 `

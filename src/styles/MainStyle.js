@@ -50,8 +50,8 @@ const fadeIn = keyframes`
 `
 
 export const HomeMainContainer = styled.div`
-    height: 100vh;
-    width: 100%;
+    max-height: 100vh;
+    max-width: 100vw;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr;
