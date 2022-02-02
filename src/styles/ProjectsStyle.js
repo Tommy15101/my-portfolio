@@ -109,7 +109,7 @@ export const ProjectsWindowInfo = styled.ul`
     align-items: center;
     height: 100%;
     justify-content: space-evenly;  
-    padding: 0 10px 10px 0;
+    padding: 0 10px 0 0;
     text-align: center;
     h2 {
         font-size: 22px;
@@ -123,8 +123,8 @@ export const ProjectsWindowInfo = styled.ul`
     @media (max-width: 1400px) {
         padding: 20px 0 0 0;
     }
-    @media (max-width: 1200px) {
-        
+    @media (max-width: 576px) {
+        padding: 0 30px 0 0;
     }
 `
 export const ProjectsWindowButtons = styled.div`
@@ -152,6 +152,9 @@ export const ProjectsWindowButtons = styled.div`
     }
     @media (max-width: 992px) {
         flex-direction: column;
+    }
+    @media (max-width: 576px) {
+        padding: 0 0 0 10px;
     }
 `
 export const Footer = styled.div`
