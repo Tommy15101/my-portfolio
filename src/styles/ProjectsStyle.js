@@ -35,6 +35,12 @@ export const ProjectsWindowDisplay = styled.div`
         margin: 100px 0 0 0;
         grid-template-rows: 1fr auto 1fr;
     }
+
+    @media (max-width: 420px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        padding: 10px;
+    }
 `
 export const ProjectsWindowImage = styled.div`
     grid-column-start: 1;
@@ -72,6 +78,12 @@ export const ProjectsWindowImage = styled.div`
         margin: 0;
         padding: 0;
     }
+    @media (max-width: 420px) {
+        grid-row-start: auto;
+	    grid-row-end: auto;
+	    grid-column-start: auto;
+        grid-column-end: auto;
+    }
 `
 export const ProjectsWindowHeader = styled.div`
     display: flex;
@@ -88,12 +100,18 @@ export const ProjectsWindowHeader = styled.div`
         @media (max-width: 576px) {
             padding: 15px 0 0 0;
         }
+        @media (max-width: 420px) {
+            padding-top: 10px;
+        }
     }
     p {
         font-size: 15px;
         @media (max-width: 576px) {
         font-size: 13px;
-    }
+        }
+        @media (max-width: 420px) {
+            padding-top: 10px;
+        }
     }
     @media (max-width: 1400px) {
         grid-column-start: 1;
@@ -101,6 +119,12 @@ export const ProjectsWindowHeader = styled.div`
     }
     @media (max-width: 576px) {
         padding: 0 0 20px 0;
+    }
+    @media (max-width: 420px) {
+        grid-row-start: auto;
+	    grid-row-end: auto;
+	    grid-column-start: auto;
+        grid-column-end: auto;
     }
 `
 export const ProjectsWindowInfo = styled.ul`
@@ -116,9 +140,15 @@ export const ProjectsWindowInfo = styled.ul`
         @media (max-width: 576px) {
             padding: 0 0 10px 0;
         }
+        @media (max-width: 420px) {
+            padding-top: 5px;
+        }
     }
     li {
         font-size: 15px;
+        @media (max-width: 420px) {
+            padding: 0;
+        }
     }
     @media (max-width: 1400px) {
         padding: 20px 0 0 0;
@@ -126,6 +156,9 @@ export const ProjectsWindowInfo = styled.ul`
     @media (max-width: 576px) {
         padding: 0 30px 0 0;
     }
+    @media (max-width: 420px) {
+            padding: 0;
+        }
 `
 export const ProjectsWindowButtons = styled.div`
     height: 100%;
@@ -149,6 +182,10 @@ export const ProjectsWindowButtons = styled.div`
         @media (max-width: 1400px) {
             width: 120px;
         }
+        @media (max-width: 420px) {
+            width: 100px;
+            margin: 5px 0;
+        }
     }
     @media (max-width: 992px) {
         flex-direction: column;
@@ -156,6 +193,9 @@ export const ProjectsWindowButtons = styled.div`
     @media (max-width: 576px) {
         padding: 0 0 0 10px;
     }
+    @media (max-width: 420px) {
+            padding: 15px 0;
+        }
 `
 export const Footer = styled.div`
     @media (max-width: 576px) {
@@ -164,7 +204,7 @@ export const Footer = styled.div`
     }
 `
 
-
+// X Small - @media (max-width: 420px)
 // Small / Landscape / Phones - @media (max-width: 576px)
 // Medium / Tabets - @media (max-width: 768px)
 // Large / Laptops - @media (max-width: 992px)
