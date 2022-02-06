@@ -117,6 +117,15 @@ export const NavLinks = styled.div`
         @media (max-width: 768px) {
         display: none;
         }
+            a{
+                text-decoration: none;
+                color: white;
+                transition: all .3s ease-in-out;
+                &:hover {
+                    transform: scale(1.2);
+                    color: white;
+            }
+        }
     }
 `
 
@@ -158,6 +167,13 @@ export const NavLinksExtended = styled.div`
         margin: 60px 0 60px 0;
         font-size: 25px;
         cursor: pointer;
+    }
+    a {
+        margin: 60px 0 60px 0;
+        font-size: 25px;
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
     }
 `
 export const SocialLinksExtended = styled.div`

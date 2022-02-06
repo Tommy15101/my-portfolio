@@ -1,5 +1,6 @@
 import exchange from '../images/exchange.png';
 import cryptoprices from '../images/crypto_prices.png'
+import leonardo from '../images/leaonardo-teaser.png'
 
 export const ProjectsData = {
     projects:[
@@ -35,7 +36,7 @@ export const ProjectsData = {
         },
         {
             id: 3,
-            imgSrc: exchange,
+            imgSrc: leonardo,
             title: 'NFT Collection',
             desc: 'In Progress - Coming Soon',
             info: 'A collection of 20 unique pieces',
@@ -43,8 +44,8 @@ export const ProjectsData = {
             skillsOne: 'Solidity',
             skillsTwo: 'React',
             skillsThree: 'IPFS',
-            buttonOne: 'View Code',
-            buttonTwo: 'Visit Test',
+            buttonOne: 'Coming Soon',
+            buttonTwo: 'Coming Soon',
             // code: 'https://github.com/Tommy15101',
             // visit: 'https://flat-credit-3558.on.fleek.co/'
         }

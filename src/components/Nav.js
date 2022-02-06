@@ -44,6 +44,7 @@ const Nav = () => {
                     <ul>
                         <li onClick={() => navigate("./projects")}>Projects</li>
                         <li onClick={() => navigate("./skills")}>Skills</li>
+                        <a href="CV.pdf" target="_blank" rel="noreferrer">CV</a>
                     </ul>
                     <MobileNavToggle onClick={() => {
                             setMobileNav((curr) => !curr)
@@ -61,6 +62,7 @@ const Nav = () => {
                             }}>
                             <li onClick={() => navigate("./projects")}>Projects</li>
                             <li onClick={() => navigate("./skills")}>Skills</li>
+                            <a href="CV.pdf" target="_blank" rel="noreferrer">CV</a>
                         </ul>
                     </NavLinksExtended>
 
