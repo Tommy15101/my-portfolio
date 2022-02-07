@@ -17,7 +17,7 @@ export const ProjectsData = {
             buttonOne: 'View Code',
             buttonTwo: 'Visit Exchange',
             code: 'https://github.com/Tommy15101/CapstoneProject',
-            visit: 'https://flat-credit-3558.on.fleek.co/'
+            visit: 'https://bali-token-exchange.on.fleek.co'
         },
         {
             id: 2,
@@ -32,7 +32,7 @@ export const ProjectsData = {
             buttonOne: 'View Code',
             buttonTwo: 'Visit Tracker',
             code: 'https://github.com/Tommy15101',
-            visit: 'https://jolly-sea-5132.on.fleek.co'
+            visit: 'https://crypto-prices.on.fleek.co'
         },
         {
             id: 3,
