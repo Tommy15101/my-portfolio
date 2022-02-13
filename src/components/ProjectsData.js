@@ -1,6 +1,7 @@
 import exchange from '../images/exchange.png';
-import cryptoprices from '../images/crypto_prices.png'
-import leonardo from '../images/leaonardo-teaser.png'
+import cryptoprices from '../images/crypto_prices.png';
+import leonardo from '../images/leaonardo-teaser.png';
+import bestofbali from '../images/bestofbali.png';
 
 export const ProjectsData = {
     projects:[
@@ -47,6 +48,21 @@ export const ProjectsData = {
             buttonOne: 'Coming Soon',
             buttonTwo: 'Coming Soon',
             // code: 'https://github.com/Tommy15101',
+            // visit: 'https://flat-credit-3558.on.fleek.co/'
+        },
+        {
+            id: 3,
+            imgSrc: bestofbali,
+            title: 'Best of Bali',
+            desc: 'In Progress - Coming Soon',
+            info: 'Discover the best of everything Bali has to offer. Share you experiences. The Bali expat inner circle',
+            skillsHeader: 'Key Skills',
+            skillsOne: 'GraphQL',
+            skillsTwo: 'React',
+            skillsThree: 'CSS',
+            buttonOne: 'View Code',
+            buttonTwo: 'Coming Soon',
+            code: 'https://github.com/Tommy15101/best-of-bali',
             // visit: 'https://flat-credit-3558.on.fleek.co/'
         }
     ]
