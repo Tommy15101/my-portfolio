@@ -51,7 +51,7 @@ export const ProjectsData = {
             // visit: 'https://flat-credit-3558.on.fleek.co/'
         },
         {
-            id: 3,
+            id: 4,
             imgSrc: bestofbali,
             title: 'Best of Bali',
             desc: 'In Progress - Coming Soon',
