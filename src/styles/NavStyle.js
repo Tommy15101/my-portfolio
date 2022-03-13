@@ -91,16 +91,16 @@ export const Email = styled.div`
 
 // The right side of the Nav Bar
 export const NavLinks = styled.div`
-    width: 300px;
+    width: 500px;
     margin-right: 100px;
     cursor: pointer;
     color: white;
     @media (max-width: 1200px) {
-        width: 250px;
+        width: 350px;
         margin-right: 80px;
     }
     @media (max-width: 992px) {
-        width: 180px;
+        width: 250px;
         margin-right: 60px;
     }
     ul {
@@ -164,20 +164,20 @@ export const NavLinksExtended = styled.div`
     text-align: center;
     color: white;
     li {
-        margin: 60px 0 60px 0;
-        font-size: 25px;
+        margin: 40px 0 40px 0;
+        font-size: 20px;
         cursor: pointer;
     }
     a {
-        margin: 60px 0 60px 0;
-        font-size: 25px;
+        margin: 40px 0 40px 0;
+        font-size: 20px;
         cursor: pointer;
         text-decoration: none;
         color: white;
     }
 `
 export const SocialLinksExtended = styled.div`
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;

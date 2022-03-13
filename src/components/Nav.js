@@ -42,6 +42,7 @@ const Nav = () => {
 
                 <NavLinks>
                     <ul>
+                        <a href="https://github.com/Tommy15101/Blockchain-Security" target="_blank" rel="noreferrer">Security</a>
                         <li onClick={() => navigate("./projects")}>Projects</li>
                         <li onClick={() => navigate("./skills")}>Skills</li>
                         <a href="CV.pdf" target="_blank" rel="noreferrer">CV</a>
@@ -60,6 +61,7 @@ const Nav = () => {
                         <ul onClick={() => {
                             setMobileNav((curr) => !curr)
                             }}>
+                            <a href="https://github.com/Tommy15101/Blockchain-Security" target="_blank" rel="noreferrer">Security</a>
                             <li onClick={() => navigate("./projects")}>Projects</li>
                             <li onClick={() => navigate("./skills")}>Skills</li>
                             <a href="CV.pdf" target="_blank" rel="noreferrer">CV</a>

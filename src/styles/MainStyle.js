@@ -40,14 +40,14 @@ const fromRight = keyframes`
         transform: translateX(0px)
     }
 `
-const fadeIn = keyframes`
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-`
+// const fadeIn = keyframes`
+//     0% {
+//         opacity: 0;
+//     }
+//     100% {
+//         opacity: 1;
+//     }
+// `
 
 export const HomeMainContainer = styled.div`
     height: 100vh;
