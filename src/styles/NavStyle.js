@@ -150,7 +150,7 @@ export const MobileNavExtension = styled.div`
     top: 0;
     background-color: rgba(0,0,0,0.9);
     display: grid;
-    grid-template-rows: 1fr 1.25fr;
+    grid-template-rows: 1fr .65fr;
     animation: ${dropDown} 1s ease-in-out;
     z-index: -1;
     @media (min-width: 768px) {
