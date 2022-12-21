@@ -1,6 +1,6 @@
 import exchange from "../images/exchange.png";
 import cryptoprices from "../images/crypto_prices.png";
-import leonardo from "../images/leaonardo-teaser.png";
+import crypto50 from "../images/crypto50.png";
 // import bestofbali from '../images/bestofbali.png';
 
 export const ProjectsData = {
@@ -37,18 +37,18 @@ export const ProjectsData = {
     },
     {
       id: 3,
-      imgSrc: leonardo,
-      title: "NFT Collection",
-      desc: "In Progress - Coming Soon",
-      info: "A collection of 20 unique pieces",
+      imgSrc: crypto50,
+      title: "Crypto 50",
+      desc: "Crypto / NFT info",
+      info: "CS50 final project. Data sourced from coin gecko.",
       skillsHeader: "Key Skills",
-      skillsOne: "Solidity",
-      skillsTwo: "React",
-      skillsThree: "IPFS",
-      buttonOne: "Coming Soon",
-      buttonTwo: "Coming Soon",
-      // code: 'https://github.com/Tommy15101',
-      // visit: 'https://flat-credit-3558.on.fleek.co/'
+      skillsOne: "React",
+      skillsTwo: "API",
+      skillsThree: "Styled Components",
+      buttonOne: "View Code",
+      buttonTwo: "Visit Project",
+      code: "https://github.com/Tommy15101/crypto-50",
+      visit: "https://effulgent-snickerdoodle-eb699d.netlify.app/",
     },
     // {
     //     id: 4,
